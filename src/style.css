@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    font-family: 'Dancing Script', cursive;
+    width: 100vw;
+    height: 100vh;
+}
+
+#app {    
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+}
+
+.planetLabel{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#footer-mark{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.created-by{
+    display: block;
+    color: white;
+    text-align: right;
+}
